@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reifier</title>
+  <meta name="robots" content="noindex">
+  <script>
+    // Old links printed on packaging/inserts land here: send them to the closest section.
+    (function () {
+      var p = location.pathname.toLowerCase();
+      var routes = [
+        [/churro|recipe|ebook|e-book/, "/#guide-churro-maker"],
+        [/cookie|press/, "/#guide-cookie-press"],
+        [/globe|bulb/, "/#guide-watering-globes"],
+        [/spike|terracotta|stake/, "/#guide-watering-spikes"],
+        [/contact|support|help|warranty/, "/#contact"],
+        [/how|guide|manual|instruction/, "/#how-to"],
+        [/product|shop|store/, "/#products"],
+      ];
+      for (var i = 0; i < routes.length; i++) {
+        if (routes[i][0].test(p)) { location.replace(routes[i][1]); return; }
+      }
+      location.replace("/");
+    })();
+  </script>
+  <meta http-equiv="refresh" content="2;url=/">
+</head>
+<body style="font-family:system-ui,sans-serif;text-align:center;padding:60px 16px;background:#faf7f2;color:#1e2721">
+  <p>Redirecting to <a href="/">reifierproducts.com</a>…</p>
+</body>
+</html>

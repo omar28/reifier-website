@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reifier — Home, Garden &amp; Kitchen Products</title>
+  <meta name="description" content="Reifier makes simple, practical products for the garden and kitchen: plant watering globes, terracotta watering spikes, churro makers and cookie presses. How-to guides and customer support.">
+  <meta property="og:title" content="Reifier — Home, Garden & Kitchen Products">
+  <meta property="og:description" content="Product guides, recipes and customer support for Reifier products.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://reifierproducts.com/">
+  <meta property="og:image" content="https://reifierproducts.com/images/watering-globes-iridescent.jpg">
+  <link rel="canonical" href="https://reifierproducts.com/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232E5E4E'/%3E%3Ctext x='32' y='44' font-family='Arial,Helvetica,sans-serif' font-size='34' font-weight='700' fill='%23FAF7F2' text-anchor='middle'%3ER%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Reifier",
+    "url": "https://reifierproducts.com/",
+    "email": "support@reifierproducts.com"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top" aria-label="Reifier home">REIFIER</a>
+      <nav class="nav" aria-label="Main">
+        <a href="#products">Products</a>
+        <a href="#how-to">How to Use</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-small btn-ink header-cta" data-store-link target="_blank" rel="noopener">Shop on Amazon</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Garden · Kitchen</p>
+          <h1>Simple tools that make everyday life easier.</h1>
+          <p class="lead">Welcome to Reifier. Find your product, learn how to get the most out of it, or reach our team directly — we answer every message <span data-response-time>within 1 business day</span>.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Get help with my order</a>
+            <a class="btn btn-ghost" href="#products">Browse products</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-card art-a"><img src="images/watering-globes-iridescent.jpg" alt=""></div>
+          <div class="art-card art-b"><img src="images/churro-maker.jpg" alt=""></div>
+          <div class="art-card art-c"><img src="images/watering-spikes-10.jpg" alt=""></div>
+        </div>
+      </div>
+
+      <div class="wrap">
+        <ul class="quick-help">
+          <li>
+            <a href="#how-to">
+              <span class="qh-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v16H5.5A1.5 1.5 0 0 1 4 18.5zM13 4h5.5A1.5 1.5 0 0 1 20 5.5v13a1.5 1.5 0 0 1-1.5 1.5H13z"/></svg>
+              </span>
+              <span><strong>How to use</strong><small>Step-by-step guides &amp; fixes</small></span>
+            </a>
+          </li>
+          <li>
+            <a href="#how-to" data-open-guide="churro-maker">
+              <span class="qh-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 3v12m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>
+              </span>
+              <span><strong>Churro recipe eBook</strong><small>Your free 10+ recipe book</small></span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact">
+              <span class="qh-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 6.5A1.5 1.5 0 0 1 5.5 5h13A1.5 1.5 0 0 1 20 6.5v9a1.5 1.5 0 0 1-1.5 1.5H9l-5 3z"/></svg>
+              </span>
+              <span><strong>Contact support</strong><small>Real people, fast answers</small></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section" id="products" aria-labelledby="products-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Our products</p>
+            <h2 id="products-title">Shop Reifier</h2>
+          </div>
+          <div class="chips" role="tablist" aria-label="Filter by category" id="category-filter"></div>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+        <p class="store-note">All Reifier products are sold and shipped through Amazon. <a data-store-link target="_blank" rel="noopener">See our full Amazon store ↗</a></p>
+      </div>
+    </section>
+
+    <!-- How to use -->
+    <section class="section section-tint" id="how-to" aria-labelledby="howto-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Guides</p>
+            <h2 id="howto-title">How to use your Reifier product</h2>
+          </div>
+        </div>
+        <div class="guide-picker" role="tablist" aria-label="Choose a product guide" id="guide-picker"></div>
+        <article class="guide" id="guide-panel" role="tabpanel" aria-live="polite"></article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-inner">
+        <div class="contact-side">
+          <p class="eyebrow">Contact us</p>
+          <h2 id="contact-title">Something not right? Tell us.</h2>
+          <p class="lead">Missing part, damaged item, or just not sure how something works — send us a message and a real person will get back to you <span data-response-time>within 1 business day</span>.</p>
+          <ul class="contact-points">
+            <li>
+              <span class="cp-label">Email</span>
+              <a data-email-link></a>
+            </li>
+            <li>
+              <span class="cp-label">Bought on Amazon?</span>
+              <span>You can also message us from <a href="https://www.amazon.com/gp/your-account/order-history" target="_blank" rel="noopener">Your Orders ↗</a> → “Get product support” or “Contact seller”.</span>
+            </li>
+            <li>
+              <span class="cp-label">Tip</span>
+              <span>Include your Amazon order number and a photo if something arrived damaged — it helps us solve it faster.</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="field-row">
+            <label class="field">
+              <span>Your name</span>
+              <input name="name" type="text" autocomplete="name" required>
+            </label>
+            <label class="field">
+              <span>Email</span>
+              <input name="email" type="email" autocomplete="email" required>
+            </label>
+          </div>
+          <div class="field-row">
+            <label class="field">
+              <span>Product</span>
+              <select name="product" id="product-select"></select>
+            </label>
+            <label class="field">
+              <span>Amazon order # <em>(optional)</em></span>
+              <input name="order" type="text" placeholder="111-1234567-1234567" inputmode="numeric">
+            </label>
+          </div>
+          <label class="field">
+            <span>What can we help with?</span>
+            <select name="topic">
+              <option>Question about using my product</option>
+              <option>Missing or damaged item</option>
+              <option>Request the recipe eBook</option>
+              <option>Return or replacement</option>
+              <option>Something else</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <!-- Honeypot: bots fill it, humans never see it. -->
+          <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn-primary btn-block" type="submit">Send message</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <span class="wordmark wordmark-light">REIFIER</span>
+        <p>Simple tools for the garden and kitchen.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#products">Products</a>
+        <a href="#how-to">How to Use</a>
+        <a href="#contact">Contact</a>
+        <a data-store-link target="_blank" rel="noopener">Amazon Store ↗</a>
+      </nav>
+    </div>
+    <div class="wrap footer-legal">
+      <p>© <span id="year"></span> Reifier. All rights reserved.</p>
+      <p>Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates.</p>
+    </div>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
