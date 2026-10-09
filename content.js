@@ -6,7 +6,7 @@
 window.SITE = {
   brand: "Reifier",
   // Mailbox shown on the site and used as the fallback when no form key is set.
-  email: "support@reifierproducts.com",
+  email: "contact@reifierproducts.com",
   responseTime: "within 1 business day",
   // Free contact-form key from https://web3forms.com (enter your email, they send a key).
   // Leave empty and the form opens the visitor's email app instead.
