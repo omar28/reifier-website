@@ -10,7 +10,7 @@ window.SITE = {
   responseTime: "within 1 business day",
   // Free contact-form key from https://web3forms.com (enter your email, they send a key).
   // Leave empty and the form opens the visitor's email app instead.
-  web3formsKey: "",
+  web3formsKey: "4b389715-a53e-40fe-801d-3a233d9ea7b2",
   amazonStoreUrl: "https://www.amazon.com/s?me=A38ELTV7JTUAHC&marketplaceID=ATVPDKIKX0DER",
   amazonSellerUrl: "https://www.amazon.com/sp?seller=A38ELTV7JTUAHC",
   // Put the PDF in /downloads and set e.g. "downloads/churro-recipes.pdf".
