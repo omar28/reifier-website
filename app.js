@@ -179,7 +179,7 @@
     const subject = `[Reifier website] ${data.topic} — ${data.product}`;
     const body =
       `Name: ${data.name}\nEmail: ${data.email}\nProduct: ${data.product}\n` +
-      `Amazon order #: ${data.order}\nTopic: ${data.topic}\n\n${data.message}`;
+      `Amazon / Walmart order #: ${data.order}\nTopic: ${data.topic}\n\n${data.message}`;
 
     // No form key yet: hand the message to the visitor's email app.
     if (!SITE.web3formsKey) {

@@ -269,7 +269,7 @@ h3 { font-size: 1.15rem; font-weight: 600; }
   padding: 24px 20px; display: grid; gap: 16px; box-shadow: var(--shadow);
 }
 @media (min-width: 720px) { .contact-form { padding: 32px; } }
-.field-row { display: grid; gap: 16px; }
+.field-row { display: grid; gap: 16px; align-items: end; }
 @media (min-width: 600px) { .field-row { grid-template-columns: 1fr 1fr; } }
 .field { display: grid; gap: 6px; font-size: .9rem; font-weight: 500; }
 .field em { font-style: normal; color: var(--muted); font-weight: 400; }
